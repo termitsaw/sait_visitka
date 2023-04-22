@@ -140,3 +140,31 @@
     position: relative;
     padding: 0 34px;
 }
+.play-bth {
+    display: flex;
+    background-color: blue;
+    width: 40px;
+    height: 40xpx;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.about-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+.about-subtitle {
+    font-size: 13px;
+    color: #8c8c8c;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-align: center;
+    display: block;
+}
