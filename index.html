@@ -60,23 +60,60 @@
                         </p>
                     </div>
 
-                    <div class="audio-block">
-                        <img src="/img/man-avatar.png" alt="">
-                        <div class="audio-container">
-                            <img src="/img/audio.png" alt="" class="audio-track">
-                            <a href="#" class="play-bth">
-                                <img src="/img/icons/play.svg" alt="">
-                            </a>
+                    <div class="audio-holder">
+                        <div class="audio-block">
+                            <img src="/img/man-avatar.png" alt="">
+                            <div class="audio-container">
+                            <div class="audio-detail">
+                                <div class="control">
+                                    <i class="fi-rr-play" id="playPause"></i>
+                                </div>
+                                <div id="wave"></div>
+                            </div>
+                            </div>
                         </div>
 
-
+                        <div class="audio-author">
+                        </div>
+                        <h2 class="about-title">Testomonial</h2>
+                        <span class="about-subtitle">Ton Hope</span>
                     </div>
 
-                    <h2 class="about-title">Testomonial</h2>
-                    <span class="about-subtitle">Ton Hope</span>
+                    <div class="time">
+                        <span id="current">0:00</span> /
+                        <span id="duration"></span>
+                    </div>
                 </div>
+
+                
             </section>
         </div>
     </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="courses">
+                <h1 class="course-section-title">Popular Course <br>this week</h1>
+
+                <section class="course-row">
+                    <div class="course-card card-big">
+                        Карточка с большой картинкой
+                    </div>
+
+                    <div class="course-card card-small">
+                        Карточка с маленькой картинкой
+                    </div>
+                </section>
+                
+                <section class="course-row">
+                    Второй ряд
+                </section>
+
+
+            </section>
+        </div>
+    </main>
+    <script src="./wavesurfer.js"></script>
+    <script src="media.js"></script>
 </body>
 </html>
